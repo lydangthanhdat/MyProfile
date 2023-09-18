@@ -42,7 +42,6 @@
    <img width="48" height="48" src="https://img.icons8.com/color/48/gmail--v1.png" alt="Mail"/>
   </a>
     <img width="48" height="48" src="https://img.icons8.com/fluency-systems-regular/48/qr-code--v1.png" alt="QRcode"/>
-   </a>
 </p>
 <p align="center">
   𝙼𝚊𝚗𝚗𝚎𝚛𝚜 𝙼𝚊𝚔𝚎𝚝𝚑 𝙼𝚊𝚗
