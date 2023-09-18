@@ -4,9 +4,10 @@
   <img align="right" width="230" src="https://i.imgur.com/GLvHhhV.png">
   <h3 align="left">A passionate developer from Vietnam 🇻🇳</h3>
 </p>
-💼 Deputy Secretary of the Youth Union Branch of Data Communication & Computer Networks
 
 🎓 I'm student at: [<b>Faculty of Information and Communication Technology</b>](https://www.cit.ctu.edu.vn/) - [<b>Can Tho University</b>](https://www.ctu.edu.vn/)
+<br>
+💼 Deputy Secretary of the Youth Union Branch of Data Communication & Computer Networks
 <br>
 ⏳ <b>Courses 49</b> (From 2023 to 2027)
 <br>
