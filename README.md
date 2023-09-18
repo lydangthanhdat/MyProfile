@@ -52,13 +52,13 @@
   
 <img width="32" height="32" src="https://img.icons8.com/fluency/48/bank-building.png" alt="Bank"/> ![Transfer information](https://i.imgur.com/VYHtIeg.png)
 <p align="left">
-    <img width="25" height="25" src="https://github.com/lydangthanhdat/MyProfile/assets/145395773/7c88b8f6-7a45-44be-b2d1-de267e86dca2" alt="TECHCOMBANK"/> <b>⇨ <i>TECHCOMBANK - 19037180300017 - LY DANG THANH DAT</i></b>
+    <img width="25" height="25" src="https://github.com/lydangthanhdat/MyProfile/assets/145395773/7c88b8f6-7a45-44be-b2d1-de267e86dca2" alt="TECHCOMBANK"/> <b>⇨ <i>TECHCOMBANK - 19037180300017</i></b>
      <br>
-  <img width="25" height="25" src="https://github.com/lydangthanhdat/MyProfile/assets/145395773/4877c0fe-b758-4595-870e-ee862858126b" alt="MBBANK"/> <b>⇨ <i>MBBANK - 9704229203793044499 -  LY DANG THANH DAT</i></b>
+  <img width="25" height="25" src="https://github.com/lydangthanhdat/MyProfile/assets/145395773/4877c0fe-b758-4595-870e-ee862858126b" alt="MBBANK"/> <b>⇨ <i>MBBANK - 9704229203793044499</i></b>
      <br>
-  <img width="25" height="25" src="https://github.com/lydangthanhdat/MyProfile/assets/145395773/8825b4cc-370b-41e3-8f7d-ddce93134177" alt="MOMO"/> <b>⇨ <i>MOMO - 0706 784 847 - LY DANG THANH DAT</i></b>
+  <img width="25" height="25" src="https://github.com/lydangthanhdat/MyProfile/assets/145395773/8825b4cc-370b-41e3-8f7d-ddce93134177" alt="MOMO"/> <b>⇨ <i>MOMO - 0706 784 847</i></b>
      <br>
-  <img width="25" height="25" src="https://github.com/lydangthanhdat/MyProfile/assets/145395773/5536063c-2eec-4387-ab23-f1b51fb3d952" alt="ZALOPAY"/> <b>⇨ <i>ZALOPAY - 0706 784 847 - LY DANG THANH DAT</i></b>
+  <img width="25" height="25" src="https://github.com/lydangthanhdat/MyProfile/assets/145395773/5536063c-2eec-4387-ab23-f1b51fb3d952" alt="ZALOPAY"/> <b>⇨ <i>ZALOPAY - 0706 784 847</i></b>
      <br>
  <br />
 </p>
