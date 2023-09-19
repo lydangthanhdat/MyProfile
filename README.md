@@ -5,7 +5,7 @@
   <h3 align="left">A passionate developer from Vietnam 🇻🇳</h3>
 </p>
 
-🎓 I'm student at: [<b>Faculty of Information and Communication Technology</b>](https://www.cit.ctu.edu.vn/) - [<b>Can Tho University</b>](https://www.ctu.edu.vn/)
+🎓 I'm student at: [<b>College of Information and Communication Technology</b>](https://www.cit.ctu.edu.vn/) - [<b>Can Tho University</b>](https://www.ctu.edu.vn/)
 <br>
 💼 Deputy Secretary of the Youth Union Branch of Data Communication & Computer Networks
 <br>
@@ -69,7 +69,7 @@
   <tr>
     <td>
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&bg_color=FFFFFF00&text_color=179fa3&layout=compact&hide=CSS&langs_count=10&custom_title=Top%20ngôn%20ngữ%20được%20dùng" alt="conewngoungok" width="100%"/>
-      <img src="https://github-readme-stats.vercel.app/api?username=anuraghazra&bg_color=FFFFFF00&text_color=179fa3&show_icons=true&count_private=true&include_all_commits=true&custom_title=Eris%20hoạt%20động%20trên%20Github" alt="conewngoungok" width="100%"/>
+      <img src="https://github-readme-stats.vercel.app/api?username=anuraghazra&bg_color=FFFFFF00&text_color=179fa3&show_icons=true&count_private=true&include_all_commits=true&custom_title=Hoạt%20động%20trên%20Github" alt="conewngoungok" width="100%"/>
     </td>
     <td>
       <p align="center"> 
@@ -97,5 +97,5 @@
 <img align="right" width="70" src="https://i.imgur.com/6NWKvnc.png">
 
 <p align="left">
-<b>©</b><b><i>Website designed by Conmewngoungok</i></b> 😺
+<b>©</b><b><i>Website designed by Ly Dang Thanh Dat</i></b> 😺
 </p>
