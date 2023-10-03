@@ -94,8 +94,8 @@
 - ![KAGGLE](https://img.shields.io/badge/-KAGGLE-blue) Intro to Machine Learning
 - ![KAGGLE](https://img.shields.io/badge/-KAGGLE-blue) Intro to Deep Learning
 
-<img align="right" width="70" src="https://i.imgur.com/6NWKvnc.png">
+<img align="right" width="70" src="https://i.imgur.com/S7Ia9a3.gif">
 
 <p align="left">
-<b>©</b><b><i>Website designed by Ly Dang Thanh Dat</i></b> 😺
+<b>©</b><b><i>Website designed by Ly Dang Thanh Dat</i></b>
 </p>
