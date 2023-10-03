@@ -23,19 +23,19 @@
 
 <img align="left">
 
- <img width="30" height="30" src="https://img.icons8.com/fluency/20/facebook-messenger--v2.png" alt="Messenger"/> [![Chat with me at Messenger](https://i.imgur.com/P6jVd26.png)](https://m.me/conmewngoungok)
+ <img width="30" height="30" src="https://img.icons8.com/fluency/20/facebook-messenger--v2.png" alt="Messenger"/> [![Chat with me at Messenger](https://i.imgur.com/P6jVd26.png)](https://m.me/Eric.Whois)
 <p align="center">
     <img width="48" height="48" src="https://img.icons8.com/fluency-systems-regular/48/chain--v1.png" alt="Linkedin"/>
    <a href="https://www.linkedin.com/in/conmewngoungok/" target="_blank">
     <img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/>
   </a>
-  <a href="https://www.instagram.com/conmewngoungok/" target="_blank">
+  <a href="https://www.instagram.com/Eric_Whois/" target="_blank">
     <img width="48" height="48" src="https://img.icons8.com/fluency/48/instagram-new.png" alt="Instagram"/>
   </a>
-  <a href="https://www.facebook.com/profile.php?id=100000354846842" alt="Facebook">
+  <a href="https://www.facebook.com/Eric.Whois" alt="Facebook">
     <img src="https://img.icons8.com/fluent/48/000000/facebook-new.png" alt="Facebook" />
   </a> 
-  <a href="https://zalo.me/conmewngoungok/" alt="Zalo">
+  <a href="https://zalo.me/Eric_Whois/" alt="Zalo">
     <img width="48" height="48" src="https://img.icons8.com/color/48/zalo.png" alt="Zalo"/>
   </a>
   <a href="mailto:lydangthanhdat@gmail." alt="Email">
