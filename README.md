@@ -7,7 +7,7 @@
 
 🎓 I'm student at: [<b>College of Information and Communication Technology</b>](https://www.cit.ctu.edu.vn/) - [<b>Can Tho University</b>](https://www.ctu.edu.vn/)
 <br>
-💼 <i>Deputy Secretary of the Youth Union Branch of Data Communication & Computer Networks<i />
+💼 <i>Deputy Secretary of the Youth Union Branch of Computer Networks and Data Communication<i />
 <br>
 ⏳ <b>Courses 49</b> (From 2023 to 2027)
 <br>
