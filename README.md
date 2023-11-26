@@ -1,13 +1,15 @@
-<img align="center" width="250" src="https://i.imgur.com/XH4RVDC.png">
+<img align="center" width="250" src="https://i.imgur.com/cH9NCGN.jpg">
 <h1 align="left">Hi😺! I'm Ly Dang Thanh Dat <img width="20" src="https://i.imgur.com/uxfDF6h.png"> </h1>
 <p align="center">
   <img align="right" width="230" src="https://i.imgur.com/GLvHhhV.png">
   <h3 align="left">A passionate developer from Vietnam 🇻🇳</h3>
 </p>
 
-🎓 I'm student at: [<b>College of Information and Communication Technology</b>](https://www.cit.ctu.edu.vn/) - [<b>Can Tho University</b>](https://www.ctu.edu.vn/)
+🎓 I'm student at [<b>College of Information and Communication Technology</b>](https://www.cit.ctu.edu.vn/) - [<b>Can Tho University</b>](https://www.ctu.edu.vn)
 <br>
-💼 <i>Deputy Secretary of the Youth Union Branch of Computer Networks and Data Communication<i />
+💼 Deputy Secretary of the Youth Union Branch of [<b>Data Communication and Computer Networks</b>](https://www.cit.ctu.edu.vn/encict/enmmt/enctdtmmt.html)
+<br>
+💼 Media Team Member at [<b>ECCIT English Club</b>](https://www.facebook.com/ECCICT) of [<b>College of Information and Communication Technology</b>](https://www.cit.ctu.edu.vn/)
 <br>
 ⏳ <b>Courses 49</b> (From 2023 to 2027)
 <br>
@@ -15,7 +17,6 @@
 <br>
 📞 Phone Number: <b>0706 784 847 - 0333 505 030</b> 
 <br>
-♍ <b>Virgo</b>
 
 <br/>
 
@@ -29,7 +30,7 @@
    <a href="https://www.linkedin.com/in/conmewngoungok/" target="_blank">
     <img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/>
   </a>
-  <a href="https://www.instagram.com/Eric_Whois/" target="_blank">
+  <a href="https://www.instagram.com/Eric.Whois/" target="_blank">
     <img width="48" height="48" src="https://img.icons8.com/fluency/48/instagram-new.png" alt="Instagram"/>
   </a>
   <a href="https://www.facebook.com/Eric.Whois" alt="Facebook">
@@ -38,7 +39,7 @@
   <a href="https://zalo.me/Eric_Whois/" alt="Zalo">
     <img width="48" height="48" src="https://img.icons8.com/color/48/zalo.png" alt="Zalo"/>
   </a>
-  <a href="mailto:lydangthanhdat@gmail." alt="Email">
+  <a href="mailto:lydangthanhdat@gmail.com" alt="Email">
    <img width="48" height="48" src="https://img.icons8.com/color/48/gmail--v1.png" alt="Mail"/>
   </a>
     <img width="48" height="48" src="https://img.icons8.com/fluency-systems-regular/48/qr-code--v1.png" alt="QRcode"/>
@@ -79,13 +80,14 @@
   </tr>
 </table>
 
-<img align="center" src="https://i.imgur.com/AOerM4v.jpg">
+<a href="https://www.facebook.com/photo?fbid=4616077121747404&set=a.3843498909005233"><img src="https://i.imgur.com/AOerM4v.jpg" /></a>
 
 # 📝 Certificates:
 
 - ![MATLAB](https://img.shields.io/badge/-MATLAB-orange) Onramp
 - ![MATLAB](https://img.shields.io/badge/-MATLAB-orange) Machine Learning Onramp
 - ![COURSERA](https://img.shields.io/badge/-COURSERA-green) Introduction to JavaScript
+  <img align="right" width="240" src="https://i.imgur.com/5oBZ9eO.gif">
 - ![COURSERA](https://img.shields.io/badge/-COURSERA-green) Audio Classification with TensorFlow
 - ![COURSERA](https://img.shields.io/badge/-COURSERA-green) Python Data Structures
 - ![COURSERA](https://img.shields.io/badge/-COURSERA-green) Programming for Everybody (Getting Started with Python)
