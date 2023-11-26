@@ -87,7 +87,6 @@
 - ![MATLAB](https://img.shields.io/badge/-MATLAB-orange) Onramp
 - ![MATLAB](https://img.shields.io/badge/-MATLAB-orange) Machine Learning Onramp
 - ![COURSERA](https://img.shields.io/badge/-COURSERA-green) Introduction to JavaScript
-  <img align="right" width="240" src="https://i.imgur.com/5oBZ9eO.gif">
 - ![COURSERA](https://img.shields.io/badge/-COURSERA-green) Audio Classification with TensorFlow
 - ![COURSERA](https://img.shields.io/badge/-COURSERA-green) Python Data Structures
 - ![COURSERA](https://img.shields.io/badge/-COURSERA-green) Programming for Everybody (Getting Started with Python)
@@ -95,6 +94,9 @@
 - ![KAGGLE](https://img.shields.io/badge/-KAGGLE-blue) Python
 - ![KAGGLE](https://img.shields.io/badge/-KAGGLE-blue) Intro to Machine Learning
 - ![KAGGLE](https://img.shields.io/badge/-KAGGLE-blue) Intro to Deep Learning
+
+  <img align="right" width="240" src="https://i.imgur.com/5oBZ9eO.gif">
+
 
 <img align="right" width="70" src="https://i.imgur.com/S7Ia9a3.gif">
 
