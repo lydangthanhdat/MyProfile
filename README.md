@@ -1,4 +1,4 @@
-<img align="center" width="250" src="https://i.imgur.com/cH9NCGN.jpg">
+<img align="center" width="250" src="https://i.imgur.com/jeHVMVw.jpg">
 <h1 align="left">Hi😺! I'm Ly Dang Thanh Dat <img width="20" src="https://i.imgur.com/uxfDF6h.png"> </h1>
 <p align="center">
   <img align="right" width="230" src="https://i.imgur.com/GLvHhhV.png">
