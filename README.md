@@ -95,8 +95,6 @@
 - ![KAGGLE](https://img.shields.io/badge/-KAGGLE-blue) Intro to Machine Learning
 - ![KAGGLE](https://img.shields.io/badge/-KAGGLE-blue) Intro to Deep Learning
 
-  <img align="center" width="240" src="https://i.imgur.com/5oBZ9eO.gif">
-
 
 <img align="right" width="70" src="https://i.imgur.com/S7Ia9a3.gif">
 
