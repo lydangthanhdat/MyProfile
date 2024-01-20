@@ -9,7 +9,7 @@
 <br>
 💼 Deputy Secretary of the Youth Union Branch of [<b>Data Communication and Computer Networks</b>](https://www.cit.ctu.edu.vn/encict/enmmt/enctdtmmt.html)
 <br>
-💼 Media Team Member at [<b>ECCIT English Club</b>](https://www.facebook.com/ECCICT) of [<b>College of Information and Communication Technology</b>](https://www.cit.ctu.edu.vn/)
+💼 Design team member at [<b>ECCIT English Club</b>](https://www.facebook.com/ECCICT) of [<b>College of Information and Communication Technology</b>](https://www.cit.ctu.edu.vn/)
 <br>
 ⏳ <b>Courses 49</b> (From 2023 to 2027)
 <br>
