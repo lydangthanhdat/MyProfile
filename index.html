@@ -10,66 +10,70 @@
             font-family: 'Montserrat', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f9;
+            background-color: #ffffff;
             color: #232641;
         }
-        /* Hiệu ứng ảnh chìm (Parallax) */
-        .parallax {
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
+        /* --- Phần Banner --- */
+        .header-banner {
+            background-image: url('banner.jpg');
             background-size: cover;
-            height: 300px;
+            background-position: center;
+            height: 380px;
             display: flex;
             align-items: center;
             justify-content: center;
             position: relative;
         }
-        .parallax::before {
+        .header-banner::before {
             content: "";
             position: absolute;
             top: 0; left: 0; right: 0; bottom: 0;
-            background: rgba(0, 0, 0, 0.4); /* Lớp phủ mờ màu đen để làm nổi bật chữ */
+            background: rgba(0, 0, 0, 0.4); 
         }
-        .parallax h1, .parallax h2 {
-            position: relative;
+        .header-banner h1 {
             color: white;
-            font-size: 40px;
+            font-size: 65px;
             letter-spacing: 2px;
-            text-align: center;
             z-index: 1;
             margin: 0;
         }
-        /* Gán riêng từng ảnh chìm */
-        .bg-banner { background-image: url('banner.jpg'); height: 400px; }
-        .bg-achieve { background-image: url('bg-achieve.jpg'); }
-        .bg-activity { background-image: url('bg-activity.jpg'); }
-        .bg-cert { background-image: url('bg-cert.jpg'); }
-
+        /* --- Layout chung --- */
         .container {
-            max-width: 900px;
-            margin: 40px auto;
-            background: white;
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 40px 20px;
         }
-        .profile-section {
+        .section-title {
+            color: #212121;
+            font-weight: 800;
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+        .row {
             display: flex;
             flex-wrap: wrap;
             gap: 40px;
             align-items: center;
         }
+        .col-left {
+            flex: 1;
+            min-width: 300px;
+            text-align: center;
+        }
+        .col-right {
+            flex: 2;
+            min-width: 300px;
+        }
+        .highlight { color: #4ad9d9; font-weight: 800; }
+        
+        /* --- Phần Profile --- */
         .profile-pic {
-            width: 250px;
-            height: 250px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 5px solid white;
-            box-shadow: 0 3px 15px rgba(0,0,0,0.15);
+            width: 300px;
+            height: auto;
+            border-radius: 8px;
         }
         .info h2 {
-            color: #2a4b80;
+            color: #232641;
             font-weight: 800;
             font-size: 32px;
             margin-top: 0;
@@ -77,7 +81,7 @@
         .info p {
             line-height: 1.8;
             font-size: 15px;
-            margin: 10px 0;
+            margin: 12px 0;
             color: #073763;
             font-weight: 700;
         }
@@ -85,74 +89,161 @@
             color: #006580;
             text-decoration: underline;
         }
-        .content-block p {
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 30px;
+            padding-top: 30px;
+            border-top: 1px solid #eee;
+        }
+        .social-icons img {
+            width: 40px;
+            height: 40px;
+        }
+
+        /* --- Phần Achievement --- */
+        .bg-light-blue {
+            background-color: #f0f8ff; /* Màu nền xanh nhạt giống ảnh 2 */
+        }
+        .achievement-img {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        .list-item {
             font-weight: 700;
-            font-size: 16px;
+            font-size: 15px;
             line-height: 1.8;
             margin: 15px 0;
             color: #073763;
         }
-        .highlight { color: #4ad9d9; }
+        
+        /* --- Phần Activities --- */
+        .bg-activity {
+            background-image: url('bg-activity.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 60px 20px;
+        }
+        .bg-activity .section-title {
+            color: white;
+        }
+        .bg-activity .list-item {
+            color: white;
+        }
+        .activity-img {
+            width: 100%;
+            border-radius: 8px;
+            border: 4px solid white;
+        }
+
+        /* --- Phần Certificate --- */
+        .cert-img {
+            width: 100%;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+        }
+        .cert-text {
+            text-align: center;
+            font-weight: 700;
+            color: white;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        .bg-dark {
+            background-color: #111;
+            padding: 40px 20px;
+        }
     </style>
 </head>
 <body>
 
-    <!-- Ảnh chìm 1: Bìa trên cùng -->
-    <div class="parallax bg-banner">
-        <h1 style="font-size: 60px;">MY PROFILE</h1>
+    <!-- 1. Banner -->
+    <div class="header-banner">
+        <h1>MY PROFILE</h1>
     </div>
     
-    <!-- Nội dung giới thiệu -->
+    <!-- 2. Profile Info -->
     <div class="container">
-        <div class="profile-section">
-            <img src="profile.jpg" alt="Lý Đặng Thành Đạt" class="profile-pic">
-            <div class="info">
+        <div class="row">
+            <div class="col-left">
+                <img src="profile.jpg" alt="Lý Đặng Thành Đạt" class="profile-pic">
+            </div>
+            <div class="col-right info">
                 <h2>LÝ ĐẶNG THÀNH ĐẠT</h2>
-                <p>🎓 Student at College of Information and Communication Technology - Can Tho University</p>
+                <p>🎓 I'm student at College of Information and Communication Technology - Can Tho University</p>
                 <p>💼 Deputy Secretary of the Youth Union Branch of Data Communication and Computer Networks</p>
-                <p>💼 Leader of Media team at ECCIT English Club</p>
-                <p>⏳ Course 49 (2023 - 2027)</p>
+                <p>💼 Leader of Media team at ECCIT English Club of College of Information and Communication</p>
+                <p>⏳ Courses 49 (From 2023 to 2027)</p>
                 <p>🏠 Lives in Can Tho City</p>
-                <p>📞 Phone: <a href="tel:0706784847">0706 784 847</a> - <a href="tel:0333505030">0333 505 030</a></p>
+                <p>📞 Phone Number: <a href="tel:0706784847">0706 784 847</a> - <a href="tel:0333505030">0333 505 030</a></p>
+            </div>
+        </div>
+        
+        <!-- Social Icons (Placeholder, cần up thêm ảnh icon tương ứng) -->
+        <h3 class="section-title" style="text-align: center; margin-top: 50px;">📫 CONNECT WITH ME</h3>
+        <!-- Bạn có thể bổ sung thẻ <a> bọc quanh ảnh nếu muốn chèn link -->
+    </div>
+
+    <!-- 3. Achievement -->
+    <div class="bg-light-blue">
+        <div class="container">
+            <h3 class="section-title">🏆 ACHIEVEMENT</h3>
+            <div class="row">
+                <div class="col-left">
+                    <img src="achieve.jpg" alt="Dự án 360VR" class="achievement-img">
+                </div>
+                <div class="col-right">
+                    <p class="list-item"><span style="color:#2a4b80; font-weight:800; font-size: 18px;">FOUNDER</span> 360VR VIRTUAL TOUR & PANORAMIC EXPLORATION PROJECT</p>
+                    <p class="list-item">🎖️ POTENTIAL STARTUP PROJECT AT THE CONTEST "FINDING IDEAS AND PROJECTS OF YOUTH STARTUPS IN CAN THO"</p>
+                    <p class="list-item">🎖️ POTENTIAL STARTUP PROJECT AT THE CONTEST "POTENTIAL STARTUP PROJECT" AMONG STUDENTS OF CAN THO UNIVERSITY</p>
+                    <p class="list-item">🎖️ POTENTIAL STARTUP PROJECT FUNDED AT THE DARIU FOUNDATION</p>
+                </div>
             </div>
         </div>
     </div>
 
-    <!-- Ảnh chìm 2: Thành tích -->
-    <div class="parallax bg-achieve">
-        <h2>🏆 ACHIEVEMENT</h2>
-    </div>
-
-    <div class="container">
-        <div class="content-block">
-            <p><span class="highlight">FOUNDER</span> 360VR VIRTUAL TOUR & PANORAMIC EXPLORATION PROJECT</p>
-            <p>🎖️ POTENTIAL STARTUP PROJECT AT THE CONTEST "FINDING IDEAS AND PROJECTS OF YOUTH STARTUPS IN CAN THO"</p>
-            <p>🎖️ POTENTIAL STARTUP PROJECT AMONG STUDENTS OF CAN THO UNIVERSITY</p>
-            <p>🎖️ POTENTIAL STARTUP PROJECT FUNDED AT THE DARIU FOUNDATION</p>
+    <!-- 4. Activities -->
+    <div class="bg-activity">
+        <div class="container">
+            <h3 class="section-title">🔰 ACTIVITIES</h3>
+            <div class="row">
+                <div class="col-left">
+                     <img src="activity1.jpg" alt="Hoạt động Đoàn" class="activity-img">
+                </div>
+                <div class="col-right">
+                     <p class="list-item"><span class="highlight">CANDIDATE</span> EXECUTIVE COMMITTEE</p>
+                     <p class="list-item">THE YOUTH UNION OF COLLEGE OF INFORMATION AND COMMUNICATION TECHNOLOGY - CAN THO UNIVERSITY</p>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 40px;">
+                <div class="col-left">
+                     <img src="activity2.jpg" alt="Hoạt động ECCIT" class="activity-img">
+                </div>
+                <div class="col-right">
+                     <p class="list-item"><span class="highlight">LEADER</span> OF MEDIA TEAM</p>
+                     <p class="list-item">ECCIT ENGLISH CLUB OF COLLEGE OF INFORMATION AND COMMUNICATION</p>
+                </div>
+            </div>
         </div>
     </div>
 
-    <!-- Ảnh chìm 3: Hoạt động -->
-    <div class="parallax bg-activity">
-        <h2>🔰 ACTIVITIES</h2>
-    </div>
-
-    <div class="container">
-        <div class="content-block">
-            <p><span class="highlight">CANDIDATE</span> EXECUTIVE COMMITTEE THE YOUTH UNION OF COLLEGE OF INFORMATION AND COMMUNICATION TECHNOLOGY</p>
-            <p><span class="highlight">LEADER</span> OF MEDIA TEAM - ECCIT ENGLISH CLUB</p>
-        </div>
-    </div>
-
-    <!-- Ảnh chìm 4: Chứng chỉ -->
-    <div class="parallax bg-cert">
-        <h2>📝 CERTIFICATES</h2>
-    </div>
-
-    <div class="container">
-        <div class="content-block" style="text-align: center;">
-            <p>🎓 KHÓA HỌC KINH DOANH VÀ KHỞI NGHIỆP<br>BUSINESS AND ENTREPRENEURSHIP FOUNDATION</p>
-            <p>🎓 KHÓA HỌC KHỞI NGHIỆP: BỘ KỸ NĂNG CẦN THIẾT<br>ENTREPRENEURSHIP: LAYING THE FOUNDATION</p>
+    <!-- 5. Certificates -->
+    <div class="bg-dark">
+        <div class="container">
+            <h3 class="section-title" style="color: white;">📝 CERTIFICATES</h3>
+            <div class="row">
+                <div class="col-left">
+                    <img src="cert1.jpg" alt="Chứng chỉ 1" class="cert-img">
+                    <p class="cert-text">KHOÁ HỌC KINH DOANH VÀ KHỞI NGHIỆP<br>BUSINESS AND ENTREPRENEURSHIP FOUNDATION</p>
+                </div>
+                <div class="col-left">
+                    <img src="cert2.jpg" alt="Chứng chỉ 2" class="cert-img">
+                    <p class="cert-text">KHÓA HỌC KHỞI NGHIỆP: BỘ KỸ NĂNG CẦN THIẾT<br>ENTREPRENEURSHIP: LAYING THE FOUNDATION</p>
+                </div>
+            </div>
         </div>
     </div>
 
