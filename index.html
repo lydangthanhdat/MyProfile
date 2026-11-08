@@ -13,55 +13,71 @@
             background-color: #f4f4f9;
             color: #232641;
         }
-        .header-banner {
-            background-image: url('banner.jpg'); /* Đổi tên ảnh bìa của bạn thành banner.jpg và tải lên GitHub */
-            background-size: cover;
+        /* Hiệu ứng ảnh chìm (Parallax) */
+        .parallax {
+            background-attachment: fixed;
             background-position: center;
-            height: 350px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 300px;
             display: flex;
             align-items: center;
             justify-content: center;
+            position: relative;
         }
-        .header-banner h1 {
+        .parallax::before {
+            content: "";
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0, 0, 0, 0.4); /* Lớp phủ mờ màu đen để làm nổi bật chữ */
+        }
+        .parallax h1, .parallax h2 {
+            position: relative;
             color: white;
-            font-size: 50px;
+            font-size: 40px;
             letter-spacing: 2px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+            text-align: center;
+            z-index: 1;
             margin: 0;
         }
+        /* Gán riêng từng ảnh chìm */
+        .bg-banner { background-image: url('banner.jpg'); height: 400px; }
+        .bg-achieve { background-image: url('bg-achieve.jpg'); }
+        .bg-activity { background-image: url('bg-activity.jpg'); }
+        .bg-cert { background-image: url('bg-cert.jpg'); }
+
         .container {
             max-width: 900px;
-            margin: -50px auto 40px;
+            margin: 40px auto;
             background: white;
             padding: 40px;
             border-radius: 12px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
         }
         .profile-section {
             display: flex;
             flex-wrap: wrap;
-            gap: 30px;
+            gap: 40px;
             align-items: center;
-            margin-bottom: 40px;
         }
         .profile-pic {
-            width: 220px;
-            height: 220px;
+            width: 250px;
+            height: 250px;
             border-radius: 50%;
             object-fit: cover;
             border: 5px solid white;
-            box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+            box-shadow: 0 3px 15px rgba(0,0,0,0.15);
         }
         .info h2 {
             color: #2a4b80;
             font-weight: 800;
-            font-size: 28px;
+            font-size: 32px;
             margin-top: 0;
         }
         .info p {
             line-height: 1.8;
             font-size: 15px;
-            margin: 8px 0;
+            margin: 10px 0;
             color: #073763;
             font-weight: 700;
         }
@@ -69,33 +85,25 @@
             color: #006580;
             text-decoration: underline;
         }
-        .section-title {
-            color: #212121;
-            font-weight: 800;
-            font-size: 22px;
-            border-bottom: 3px solid #4ad9d9;
-            padding-bottom: 8px;
-            margin-top: 40px;
-            display: inline-block;
-        }
-        .content-block {
-            margin-top: 20px;
-        }
         .content-block p {
             font-weight: 700;
-            font-size: 15px;
+            font-size: 16px;
             line-height: 1.8;
-            margin: 10px 0;
+            margin: 15px 0;
+            color: #073763;
         }
+        .highlight { color: #4ad9d9; }
     </style>
 </head>
 <body>
-    <div class="header-banner">
-        <h1>MY PROFILE</h1>
+
+    <!-- Ảnh chìm 1: Bìa trên cùng -->
+    <div class="parallax bg-banner">
+        <h1 style="font-size: 60px;">MY PROFILE</h1>
     </div>
     
+    <!-- Nội dung giới thiệu -->
     <div class="container">
-        <!-- Phần giới thiệu -->
         <div class="profile-section">
             <img src="profile.jpg" alt="Lý Đặng Thành Đạt" class="profile-pic">
             <div class="info">
@@ -108,22 +116,45 @@
                 <p>📞 Phone: <a href="tel:0706784847">0706 784 847</a> - <a href="tel:0333505030">0333 505 030</a></p>
             </div>
         </div>
+    </div>
 
-        <!-- Phần Thành tích -->
-        <h3 class="section-title">🏆 ACHIEVEMENT</h3>
+    <!-- Ảnh chìm 2: Thành tích -->
+    <div class="parallax bg-achieve">
+        <h2>🏆 ACHIEVEMENT</h2>
+    </div>
+
+    <div class="container">
         <div class="content-block">
-            <p>🎖️ FOUNDER - 360VR VIRTUAL TOUR & PANORAMIC EXPLORATION PROJECT</p>
+            <p><span class="highlight">FOUNDER</span> 360VR VIRTUAL TOUR & PANORAMIC EXPLORATION PROJECT</p>
             <p>🎖️ POTENTIAL STARTUP PROJECT AT THE CONTEST "FINDING IDEAS AND PROJECTS OF YOUTH STARTUPS IN CAN THO"</p>
             <p>🎖️ POTENTIAL STARTUP PROJECT AMONG STUDENTS OF CAN THO UNIVERSITY</p>
             <p>🎖️ POTENTIAL STARTUP PROJECT FUNDED AT THE DARIU FOUNDATION</p>
         </div>
-        
-        <!-- Phần Chứng chỉ -->
-        <h3 class="section-title">📝 CERTIFICATES</h3>
+    </div>
+
+    <!-- Ảnh chìm 3: Hoạt động -->
+    <div class="parallax bg-activity">
+        <h2>🔰 ACTIVITIES</h2>
+    </div>
+
+    <div class="container">
         <div class="content-block">
-            <p>🎓 KHÓA HỌC KINH DOANH VÀ KHỞI NGHIỆP / BUSINESS AND ENTREPRENEURSHIP FOUNDATION</p>
-            <p>🎓 KHÓA HỌC KHỞI NGHIỆP: BỘ KỸ NĂNG CẦN THIẾT</p>
+            <p><span class="highlight">CANDIDATE</span> EXECUTIVE COMMITTEE THE YOUTH UNION OF COLLEGE OF INFORMATION AND COMMUNICATION TECHNOLOGY</p>
+            <p><span class="highlight">LEADER</span> OF MEDIA TEAM - ECCIT ENGLISH CLUB</p>
         </div>
     </div>
+
+    <!-- Ảnh chìm 4: Chứng chỉ -->
+    <div class="parallax bg-cert">
+        <h2>📝 CERTIFICATES</h2>
+    </div>
+
+    <div class="container">
+        <div class="content-block" style="text-align: center;">
+            <p>🎓 KHÓA HỌC KINH DOANH VÀ KHỞI NGHIỆP<br>BUSINESS AND ENTREPRENEURSHIP FOUNDATION</p>
+            <p>🎓 KHÓA HỌC KHỞI NGHIỆP: BỘ KỸ NĂNG CẦN THIẾT<br>ENTREPRENEURSHIP: LAYING THE FOUNDATION</p>
+        </div>
+    </div>
+
 </body>
 </html>
